@@ -1,0 +1,46 @@
+{
+    "intents": [
+        {
+            "intent": "ListCMIntent"
+        },
+        {
+            "intent": "SelectCMIntent",
+            "slots": [
+                {
+                    "name": "Site",
+                    "type": "CMSites"
+                }
+            ]
+        },
+        {
+            "intent": "CMProgressIntent",
+            "slots": [
+                {
+                    "name": "Date",
+                    "type": "AMAZON.DATE"
+                }
+            ]
+        },
+        {
+            "intent": "CMReleaseIntent",
+            "slots": [
+                {
+                    "name": "ASY",
+                    "type": "ASYNames"
+                }
+            ]
+        },
+        {
+            "intent": "BackToMainIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.CancelIntent"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        }
+    ]
+}

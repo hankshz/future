@@ -1,0 +1,13 @@
+ListCMIntent How many CM are we running
+ListCMIntent How many CM are we operating
+ListCMIntent How many sites are we running
+ListCMIntent How many sites are we operating
+
+SelectCMIntent Select {Site}
+SelectCMIntent Check {Site}
+
+BackToMainIntent Back to the main menu
+
+CMProgressIntent Whats the progress since {Date}
+
+CMReleaseIntent Which release {ASY} is using
